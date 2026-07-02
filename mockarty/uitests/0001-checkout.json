@@ -1,0 +1,10 @@
+{
+  "name": "Checkout",
+  "platform": "web",
+  "sortOrder": 1,
+  "actions": [
+    {"type": "navigate", "url": "https://app.example.com/cart"},
+    {"type": "click", "selector": "#pay", "selectorKind": "css"}
+  ],
+  "formatVersion": 1
+}

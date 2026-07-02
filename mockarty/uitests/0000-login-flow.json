@@ -1,0 +1,12 @@
+{
+  "name": "Login flow",
+  "platform": "web",
+  "sortOrder": 0,
+  "actions": [
+    {"type": "navigate", "url": "https://app.example.com/login"},
+    {"type": "fill", "selector": "#email", "selectorKind": "css", "value": "user@example.com"},
+    {"type": "click", "selector": "#login", "selectorKind": "css"},
+    {"type": "assertText", "selector": "#welcome", "selectorKind": "css", "value": "Welcome"}
+  ],
+  "formatVersion": 1
+}
