@@ -1,0 +1,19 @@
+{
+  "name": "mob-galaxy-gallery-nav",
+  "platform": "android",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 24,
+  "actions": [
+    {
+      "type": "click",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "icon",
+      "selectorKind": "testid",
+      "altSelectors": [
+        "Галерея",
+        "Галерея"
+      ]
+    }
+  ],
+  "formatVersion": 1
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Demo Shop login flow",
+  "platform": "web",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 49,
+  "actions": [
+    {
+      "type": "fill",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "user",
+      "selectorKind": "testid",
+      "altSelectors": [
+        "html \u003e body \u003e input"
+      ],
+      "value": "Alice"
+    },
+    {
+      "type": "click",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "#login",
+      "selectorKind": "id",
+      "altSelectors": [
+        "Sign in",
+        "#login"
+      ]
+    },
+    {
+      "type": "assertText",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "#msg",
+      "selectorKind": "id",
+      "value": "Welcome, Alice"
+    }
+  ],
+  "formatVersion": 1
+}

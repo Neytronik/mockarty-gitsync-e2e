@@ -1,19 +1,19 @@
 {
-  "name": "Checkout",
+  "name": "Agent smoke login",
   "platform": "web",
   "selectorsStrategy": "auto-heal",
-  "sortOrder": 1,
+  "sortOrder": 44,
   "actions": [
     {
       "type": "navigate",
       "timestamp": "0001-01-01T00:00:00Z",
-      "url": "https://app.example.com/cart"
+      "url": "http://127.0.0.1:5770/ui/login"
     },
     {
-      "type": "click",
+      "type": "assertVisible",
       "timestamp": "0001-01-01T00:00:00Z",
-      "selector": "#pay",
-      "selectorKind": "css"
+      "selector": "#loginSubmitBtn",
+      "selectorKind": "id"
     }
   ],
   "formatVersion": 1

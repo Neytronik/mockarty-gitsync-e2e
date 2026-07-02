@@ -1,0 +1,14 @@
+{
+  "name": "plan-uitest",
+  "platform": "web",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 15,
+  "actions": [
+    {
+      "type": "navigate",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "url": "https://example.com/"
+    }
+  ],
+  "formatVersion": 1
+}

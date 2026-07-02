@@ -1,18 +1,18 @@
 {
-  "name": "Checkout",
+  "name": "Recorded in browser E2E",
   "platform": "web",
   "selectorsStrategy": "auto-heal",
-  "sortOrder": 1,
+  "sortOrder": 0,
   "actions": [
     {
       "type": "navigate",
       "timestamp": "0001-01-01T00:00:00Z",
-      "url": "https://app.example.com/cart"
+      "url": "https://app.example.com/new-flow"
     },
     {
       "type": "click",
       "timestamp": "0001-01-01T00:00:00Z",
-      "selector": "#pay",
+      "selector": "#go",
       "selectorKind": "css"
     }
   ],

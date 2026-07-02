@@ -1,19 +1,18 @@
 {
-  "name": "Checkout",
+  "name": "dedup-uitest-4194",
   "platform": "web",
   "selectorsStrategy": "auto-heal",
-  "sortOrder": 1,
+  "sortOrder": 20,
   "actions": [
     {
       "type": "navigate",
       "timestamp": "0001-01-01T00:00:00Z",
-      "url": "https://app.example.com/cart"
+      "url": "https://x/"
     },
     {
-      "type": "click",
+      "type": "assertUrl",
       "timestamp": "0001-01-01T00:00:00Z",
-      "selector": "#pay",
-      "selectorKind": "css"
+      "value": "x"
     }
   ],
   "formatVersion": 1

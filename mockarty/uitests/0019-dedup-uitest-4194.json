@@ -1,0 +1,14 @@
+{
+  "name": "dedup-uitest-4194",
+  "platform": "web",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 19,
+  "actions": [
+    {
+      "type": "navigate",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "url": "https://x/"
+    }
+  ],
+  "formatVersion": 1
+}
