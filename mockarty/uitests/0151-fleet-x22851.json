@@ -1,0 +1,14 @@
+{
+  "name": "fleet-x22851",
+  "platform": "web",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 151,
+  "actions": [
+    {
+      "type": "navigate",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "url": "https://x/"
+    }
+  ],
+  "formatVersion": 1
+}

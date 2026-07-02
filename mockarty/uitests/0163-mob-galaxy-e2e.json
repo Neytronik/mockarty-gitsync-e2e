@@ -1,0 +1,19 @@
+{
+  "name": "mob-galaxy-e2e",
+  "platform": "android",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 163,
+  "actions": [
+    {
+      "type": "click",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "icon",
+      "selectorKind": "testid",
+      "altSelectors": [
+        "RuStore",
+        "RuStore"
+      ]
+    }
+  ],
+  "formatVersion": 1
+}

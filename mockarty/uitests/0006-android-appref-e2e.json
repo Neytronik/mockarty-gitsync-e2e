@@ -1,0 +1,21 @@
+{
+  "name": "Android appref e2e",
+  "platform": "android",
+  "selectorsStrategy": "auto-heal",
+  "appRef": {
+    "existingAppId": "com.android.settings"
+  },
+  "sortOrder": 6,
+  "actions": [
+    {
+      "type": "click",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "title",
+      "selectorKind": "testid",
+      "altSelectors": [
+        "Network \u0026 internet"
+      ]
+    }
+  ],
+  "formatVersion": 1
+}

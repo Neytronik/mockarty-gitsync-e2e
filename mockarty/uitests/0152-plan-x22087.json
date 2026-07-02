@@ -1,0 +1,14 @@
+{
+  "name": "plan-x22087",
+  "platform": "web",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 152,
+  "actions": [
+    {
+      "type": "navigate",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "url": "https://x/"
+    }
+  ],
+  "formatVersion": 1
+}
