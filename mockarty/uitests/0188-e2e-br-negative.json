@@ -1,0 +1,21 @@
+{
+  "name": "e2e-br-negative",
+  "platform": "web",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 188,
+  "actions": [
+    {
+      "type": "navigate",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "url": "data:text/html,%3C%21doctype%20html%3E%3Chtml%3E%3Cbody%3E%3Ch1%20id%3D%22hello%22%3EMockarty%20E2E%20OK%3C/h1%3E%3C/body%3E%3C/html%3E"
+    },
+    {
+      "type": "assertText",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "#hello",
+      "selectorKind": "css",
+      "value": "WRONG EXPECTED TEXT"
+    }
+  ],
+  "formatVersion": 1
+}

@@ -1,0 +1,22 @@
+{
+  "name": "mass-apidemos-test",
+  "platform": "android",
+  "selectorsStrategy": "auto-heal",
+  "appRef": {
+    "artifactId": "98571458-ea3c-438e-b8dc-f3b09e3cb9a2"
+  },
+  "sortOrder": 119,
+  "actions": [
+    {
+      "type": "click",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "text1",
+      "selectorKind": "testid",
+      "altSelectors": [
+        "Views",
+        "Views"
+      ]
+    }
+  ],
+  "formatVersion": 1
+}

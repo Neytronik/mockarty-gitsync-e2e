@@ -1,0 +1,36 @@
+{
+  "name": "P3 video e2e",
+  "platform": "web",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 103,
+  "actions": [
+    {
+      "type": "navigate",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "url": "http://127.0.0.1:5770/ui/login"
+    },
+    {
+      "type": "waitFor",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "#login"
+    },
+    {
+      "type": "fill",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "#login",
+      "value": "admin"
+    },
+    {
+      "type": "fill",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "#password",
+      "value": "admin"
+    },
+    {
+      "type": "assertVisible",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "#login"
+    }
+  ],
+  "formatVersion": 1
+}

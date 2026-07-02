@@ -1,0 +1,34 @@
+{
+  "name": "Login flow",
+  "platform": "web",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 182,
+  "actions": [
+    {
+      "type": "navigate",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "url": "https://app.example.com/login"
+    },
+    {
+      "type": "fill",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "#email",
+      "selectorKind": "css",
+      "value": "user@example.com"
+    },
+    {
+      "type": "click",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "#login",
+      "selectorKind": "css"
+    },
+    {
+      "type": "assertText",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "#welcome",
+      "selectorKind": "css",
+      "value": "Welcome"
+    }
+  ],
+  "formatVersion": 1
+}

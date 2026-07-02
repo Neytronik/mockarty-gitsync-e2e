@@ -1,0 +1,20 @@
+{
+  "name": "Checkout",
+  "platform": "web",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 183,
+  "actions": [
+    {
+      "type": "navigate",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "url": "https://app.example.com/cart"
+    },
+    {
+      "type": "click",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "#pay",
+      "selectorKind": "css"
+    }
+  ],
+  "formatVersion": 1
+}

@@ -1,0 +1,19 @@
+{
+  "name": "mass-home-test",
+  "platform": "android",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 164,
+  "actions": [
+    {
+      "type": "click",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "icon",
+      "selectorKind": "testid",
+      "altSelectors": [
+        "RuStore",
+        "RuStore"
+      ]
+    }
+  ],
+  "formatVersion": 1
+}

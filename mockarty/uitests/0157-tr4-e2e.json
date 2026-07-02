@@ -1,0 +1,14 @@
+{
+  "name": "tr4-e2e",
+  "platform": "web",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 157,
+  "actions": [
+    {
+      "type": "navigate",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "url": "http://127.0.0.1:5770/ui/login"
+    }
+  ],
+  "formatVersion": 1
+}

@@ -1,0 +1,20 @@
+{
+  "name": "live browser replay 2",
+  "platform": "web",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 92,
+  "actions": [
+    {
+      "type": "navigate",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "url": "http://127.0.0.1:8099/"
+    },
+    {
+      "type": "assertText",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "MOCKARTY LIVE OK",
+      "selectorKind": "text"
+    }
+  ],
+  "formatVersion": 1
+}

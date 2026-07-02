@@ -1,0 +1,53 @@
+{
+  "name": "Записанный сценарий",
+  "platform": "web",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 219,
+  "actions": [
+    {
+      "type": "click",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "#login",
+      "selectorKind": "id",
+      "altSelectors": [
+        "#login"
+      ]
+    },
+    {
+      "type": "click",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "#password",
+      "selectorKind": "id",
+      "altSelectors": [
+        "#password"
+      ]
+    },
+    {
+      "type": "click",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "#loginUsernameLabel",
+      "selectorKind": "id",
+      "altSelectors": [
+        "Username",
+        "#loginUsernameLabel"
+      ]
+    },
+    {
+      "type": "click",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "#loginSubmitBtn",
+      "selectorKind": "id",
+      "altSelectors": [
+        "Sign In",
+        "#loginSubmitBtn"
+      ]
+    },
+    {
+      "type": "assertVisible",
+      "timestamp": "0001-01-01T00:00:00Z",
+      "selector": "#loginSubmitBtn",
+      "selectorKind": "id"
+    }
+  ],
+  "formatVersion": 1
+}
