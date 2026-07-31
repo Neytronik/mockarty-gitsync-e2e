@@ -1,13 +1,17 @@
 {
-  "name": "dedup-uitest-4194",
+  "name": "lp-final-check",
   "platform": "web",
   "selectorsStrategy": "auto-heal",
-  "sortOrder": 247,
+  "sortOrder": 78,
   "actions": [
     {
       "timestamp": "0001-01-01T00:00:00Z",
       "type": "navigate",
-      "url": "https://x/"
+      "value": "http://127.0.0.1:5770/api/v1/health"
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "assert"
     }
   ],
   "formatVersion": 1
