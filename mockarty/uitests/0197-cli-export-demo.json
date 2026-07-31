@@ -1,0 +1,36 @@
+{
+  "name": "cli-export-demo",
+  "platform": "web",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 197,
+  "actions": [
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "navigate",
+      "value": "https://shop.example.com"
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "click",
+      "selector": "cart",
+      "selectorKind": "testid"
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "fill",
+      "selector": "#coupon",
+      "value": "SAVE10"
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "assertText",
+      "selector": ".total",
+      "value": "$90.00"
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "screenshot"
+    }
+  ],
+  "formatVersion": 1
+}

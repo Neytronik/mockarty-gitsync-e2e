@@ -1,0 +1,25 @@
+{
+  "name": "go-sdk-uiapi-demo",
+  "platform": "web",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 213,
+  "actions": [
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "navigate",
+      "value": "https://shop.example.com"
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "click",
+      "selector": "cart",
+      "selectorKind": "testid"
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "assertVisible",
+      "selector": ".cart"
+    }
+  ],
+  "formatVersion": 1
+}

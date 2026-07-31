@@ -1,0 +1,23 @@
+{
+  "name": "br-e2e-test",
+  "platform": "web",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 88,
+  "actions": [
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "navigate",
+      "url": "http://127.0.0.1:5770/ui/login"
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "click",
+      "selector": "Mockarty\n        \n        \n            MOCK\n        \n        \n            HTTP\n ",
+      "selectorKind": "text",
+      "altSelectors": [
+        "html.light \u003e body"
+      ]
+    }
+  ],
+  "formatVersion": 1
+}
