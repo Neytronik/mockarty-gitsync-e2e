@@ -1,0 +1,14 @@
+{
+  "name": "UI test — dup27976",
+  "platform": "web",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 234,
+  "actions": [
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "navigate",
+      "url": "https://x/"
+    }
+  ],
+  "formatVersion": 1
+}

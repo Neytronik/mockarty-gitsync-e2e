@@ -1,0 +1,20 @@
+{
+  "name": "ocr-canvas",
+  "platform": "web",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 76,
+  "actions": [
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "navigate",
+      "url": "http://127.0.0.1:8099/canvas.html"
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "click",
+      "selector": "text=OCRTARGET",
+      "selectorKind": "text"
+    }
+  ],
+  "formatVersion": 1
+}
