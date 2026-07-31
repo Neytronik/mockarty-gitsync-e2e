@@ -5,13 +5,13 @@
   "sortOrder": 13,
   "actions": [
     {
-      "type": "navigate",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "navigate",
       "url": "http://localhost:5770/"
     },
     {
-      "type": "click",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "click",
       "selector": "#login",
       "selectorKind": "id",
       "altSelectors": [
@@ -19,8 +19,8 @@
       ]
     },
     {
-      "type": "click",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "click",
       "selector": "#password",
       "selectorKind": "id",
       "altSelectors": [

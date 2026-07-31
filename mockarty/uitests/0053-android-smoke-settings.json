@@ -1,0 +1,16 @@
+{
+  "name": "android-smoke-settings",
+  "platform": "android",
+  "selectorsStrategy": "auto-heal",
+  "appRef": {
+    "existingAppId": "com.android.settings"
+  },
+  "sortOrder": 53,
+  "actions": [
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "screenshot"
+    }
+  ],
+  "formatVersion": 1
+}

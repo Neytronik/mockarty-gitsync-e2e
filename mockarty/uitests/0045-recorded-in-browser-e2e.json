@@ -5,13 +5,13 @@
   "sortOrder": 45,
   "actions": [
     {
-      "type": "navigate",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "navigate",
       "url": "https://app.example.com/new-flow"
     },
     {
-      "type": "click",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "click",
       "selector": "#go",
       "selectorKind": "css"
     }

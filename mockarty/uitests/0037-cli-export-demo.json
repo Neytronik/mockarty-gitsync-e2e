@@ -5,31 +5,31 @@
   "sortOrder": 37,
   "actions": [
     {
-      "type": "navigate",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "navigate",
       "value": "https://shop.example.com"
     },
     {
-      "type": "click",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "click",
       "selector": "cart",
       "selectorKind": "testid"
     },
     {
-      "type": "fill",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "fill",
       "selector": "#coupon",
       "value": "SAVE10"
     },
     {
-      "type": "assertText",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "assertText",
       "selector": ".total",
       "value": "$90.00"
     },
     {
-      "type": "screenshot",
-      "timestamp": "0001-01-01T00:00:00Z"
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "screenshot"
     }
   ],
   "formatVersion": 1

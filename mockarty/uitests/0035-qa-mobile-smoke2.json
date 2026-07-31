@@ -5,16 +5,16 @@
   "sortOrder": 35,
   "actions": [
     {
-      "type": "home",
-      "timestamp": "0001-01-01T00:00:00Z"
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "home"
     },
     {
-      "type": "screenshot",
-      "timestamp": "0001-01-01T00:00:00Z"
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "screenshot"
     },
     {
-      "type": "back",
-      "timestamp": "0001-01-01T00:00:00Z"
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "back"
     }
   ],
   "formatVersion": 1

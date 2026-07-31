@@ -8,8 +8,8 @@
   "sortOrder": 9,
   "actions": [
     {
-      "type": "click",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "click",
       "selector": "title",
       "selectorKind": "testid",
       "altSelectors": [
@@ -17,14 +17,14 @@
       ]
     },
     {
-      "type": "assertVisible",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "assertVisible",
       "selector": "Internet",
       "selectorKind": "text"
     },
     {
-      "type": "press",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "press",
       "key": "Back"
     }
   ],

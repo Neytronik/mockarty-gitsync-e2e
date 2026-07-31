@@ -8,8 +8,8 @@
   "sortOrder": 26,
   "actions": [
     {
-      "type": "click",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "click",
       "selector": "text1",
       "selectorKind": "testid",
       "altSelectors": [

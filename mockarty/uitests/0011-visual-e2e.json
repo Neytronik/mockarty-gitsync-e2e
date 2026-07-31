@@ -5,18 +5,18 @@
   "sortOrder": 11,
   "actions": [
     {
-      "type": "navigate",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "navigate",
       "url": "http://127.0.0.1:5770/ui/login"
     },
     {
-      "type": "waitFor",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "waitFor",
       "selector": "#login"
     },
     {
-      "type": "assertVisible",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "assertVisible",
       "selector": "#login"
     }
   ],

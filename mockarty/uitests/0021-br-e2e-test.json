@@ -5,13 +5,13 @@
   "sortOrder": 21,
   "actions": [
     {
-      "type": "navigate",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "navigate",
       "url": "http://127.0.0.1:5770/ui/login"
     },
     {
-      "type": "click",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "click",
       "selector": "Mockarty\n        \n        \n            MOCK\n        \n        \n            HTTP\n ",
       "selectorKind": "text",
       "altSelectors": [

@@ -5,8 +5,8 @@
   "sortOrder": 32,
   "actions": [
     {
-      "type": "navigate",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "navigate",
       "url": "https://x/"
     }
   ],

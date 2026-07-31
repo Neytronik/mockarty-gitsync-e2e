@@ -5,23 +5,23 @@
   "sortOrder": 1,
   "actions": [
     {
-      "type": "navigate",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "navigate",
       "url": "http://127.0.0.1:18999/"
     },
     {
-      "type": "fill",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "fill",
       "selector": "user",
       "selectorKind": "testid",
+      "value": "Alice",
       "altSelectors": [
         "html \u003e body \u003e input"
-      ],
-      "value": "Alice"
+      ]
     },
     {
-      "type": "click",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "click",
       "selector": "#login",
       "selectorKind": "id",
       "altSelectors": [
@@ -30,8 +30,8 @@
       ]
     },
     {
-      "type": "assertText",
       "timestamp": "0001-01-01T00:00:00Z",
+      "type": "assertText",
       "selector": "#msg",
       "selectorKind": "id",
       "value": "Welcome, Alice"
