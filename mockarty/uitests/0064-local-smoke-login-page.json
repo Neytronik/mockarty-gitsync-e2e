@@ -1,0 +1,25 @@
+{
+  "name": "local-smoke-login-page",
+  "platform": "web",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 64,
+  "actions": [
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "navigate",
+      "url": "http://127.0.0.1:5870/login"
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "waitFor",
+      "selector": "body",
+      "value": "2000"
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "assertURL",
+      "value": "login"
+    }
+  ],
+  "formatVersion": 1
+}
