@@ -2,12 +2,17 @@
   "name": "dedup-uitest-4194",
   "platform": "web",
   "selectorsStrategy": "auto-heal",
-  "sortOrder": 255,
+  "sortOrder": 256,
   "actions": [
     {
       "timestamp": "0001-01-01T00:00:00Z",
       "type": "navigate",
       "url": "https://x/"
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "assertUrl",
+      "value": "x"
     }
   ],
   "formatVersion": 1

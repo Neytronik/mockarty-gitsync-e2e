@@ -1,8 +1,8 @@
 {
-  "name": "dedup-uitest-4194",
+  "name": "UI test — solo19129",
   "platform": "web",
   "selectorsStrategy": "auto-heal",
-  "sortOrder": 255,
+  "sortOrder": 219,
   "actions": [
     {
       "timestamp": "0001-01-01T00:00:00Z",

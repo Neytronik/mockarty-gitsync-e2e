@@ -1,0 +1,33 @@
+{
+  "name": "LIGHT-VERIFY 1785663091",
+  "platform": "web",
+  "selectorsStrategy": "auto-heal",
+  "sortOrder": 73,
+  "actions": [
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "navigate",
+      "url": "http://127.0.0.1:5870/ui/login"
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "assertVisible",
+      "selector": "#login"
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "extras": {
+        "maxLCP": 15000
+      },
+      "type": "measurePerf"
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "extras": {
+        "minScore": 1
+      },
+      "type": "a11yCheck"
+    }
+  ],
+  "formatVersion": 1
+}
