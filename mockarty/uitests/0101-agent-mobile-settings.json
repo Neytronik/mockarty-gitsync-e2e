@@ -1,0 +1,32 @@
+{
+  "name": "Agent mobile settings",
+  "platform": "android",
+  "selectorsStrategy": "auto-heal",
+  "appRef": {
+    "existingAppId": "com.android.settings"
+  },
+  "sortOrder": 101,
+  "actions": [
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "click",
+      "selector": "title",
+      "selectorKind": "testid",
+      "altSelectors": [
+        "Network \u0026 internet"
+      ]
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "assertVisible",
+      "selector": "Internet",
+      "selectorKind": "text"
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "press",
+      "key": "Back"
+    }
+  ],
+  "formatVersion": 1
+}
