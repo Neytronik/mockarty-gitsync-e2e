@@ -1,13 +1,13 @@
 {
-  "name": "dedup-uitest-4194",
+  "name": "tr3-e2e",
   "platform": "web",
   "selectorsStrategy": "auto-heal",
-  "sortOrder": 254,
+  "sortOrder": 113,
   "actions": [
     {
       "timestamp": "0001-01-01T00:00:00Z",
       "type": "navigate",
-      "url": "https://x/"
+      "url": "http://127.0.0.1:5770/ui/login"
     }
   ],
   "formatVersion": 1

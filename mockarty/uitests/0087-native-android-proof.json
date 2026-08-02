@@ -1,0 +1,18 @@
+{
+  "name": "native-android-proof",
+  "platform": "android",
+  "selectorsStrategy": "auto-heal",
+  "appRef": {
+    "existingAppId": "com.android.settings"
+  },
+  "sortOrder": 87,
+  "actions": [
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "click",
+      "selector": "content_layout",
+      "selectorKind": "testid"
+    }
+  ],
+  "formatVersion": 1
+}

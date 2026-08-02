@@ -1,13 +1,13 @@
 {
-  "name": "dedup-uitest-4194",
+  "name": "plan-uitest",
   "platform": "web",
   "selectorsStrategy": "auto-heal",
-  "sortOrder": 254,
+  "sortOrder": 219,
   "actions": [
     {
       "timestamp": "0001-01-01T00:00:00Z",
       "type": "navigate",
-      "url": "https://x/"
+      "url": "https://example.com/"
     }
   ],
   "formatVersion": 1

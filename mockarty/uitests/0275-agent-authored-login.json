@@ -20,29 +20,119 @@
     },
     {
       "timestamp": "0001-01-01T00:00:00Z",
-      "type": "fill",
+      "type": "click",
       "selector": "#login",
       "selectorKind": "id",
-      "value": "admin",
       "altSelectors": [
         "#login"
       ]
     },
     {
       "timestamp": "0001-01-01T00:00:00Z",
-      "type": "click",
+      "type": "press",
+      "selector": "#login",
+      "selectorKind": "id",
+      "key": "a",
+      "altSelectors": [
+        "#login"
+      ]
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "press",
+      "selector": "#login",
+      "selectorKind": "id",
+      "key": "d",
+      "altSelectors": [
+        "#login"
+      ]
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "press",
+      "selector": "#login",
+      "selectorKind": "id",
+      "key": "m",
+      "altSelectors": [
+        "#login"
+      ]
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "press",
+      "selector": "#login",
+      "selectorKind": "id",
+      "key": "i",
+      "altSelectors": [
+        "#login"
+      ]
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "press",
+      "selector": "#login",
+      "selectorKind": "id",
+      "key": "n",
+      "altSelectors": [
+        "#login"
+      ]
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "press",
+      "selector": "#login",
+      "selectorKind": "id",
+      "key": "Tab",
+      "altSelectors": [
+        "#login"
+      ]
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "press",
       "selector": "#password",
       "selectorKind": "id",
+      "key": "a",
       "altSelectors": [
         "#password"
       ]
     },
     {
       "timestamp": "0001-01-01T00:00:00Z",
-      "type": "fill",
+      "type": "press",
       "selector": "#password",
       "selectorKind": "id",
-      "value": "admin",
+      "key": "d",
+      "altSelectors": [
+        "#password"
+      ]
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "press",
+      "selector": "#password",
+      "selectorKind": "id",
+      "key": "m",
+      "altSelectors": [
+        "#password"
+      ]
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "press",
+      "selector": "#password",
+      "selectorKind": "id",
+      "key": "i",
+      "altSelectors": [
+        "#password"
+      ]
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "press",
+      "selector": "#password",
+      "selectorKind": "id",
+      "key": "n",
       "altSelectors": [
         "#password"
       ]

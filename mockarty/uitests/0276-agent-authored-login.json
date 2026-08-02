@@ -1,14 +1,29 @@
 {
-  "name": "Записанный сценарий",
+  "name": "Agent authored login",
   "platform": "web",
   "selectorsStrategy": "auto-heal",
-  "sortOrder": 269,
+  "sortOrder": 276,
   "actions": [
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "navigate",
+      "url": "http://127.0.0.1:5770/ui/login"
+    },
     {
       "timestamp": "0001-01-01T00:00:00Z",
       "type": "click",
       "selector": "#login",
       "selectorKind": "id",
+      "altSelectors": [
+        "#login"
+      ]
+    },
+    {
+      "timestamp": "0001-01-01T00:00:00Z",
+      "type": "fill",
+      "selector": "#login",
+      "selectorKind": "id",
+      "value": "admin",
       "altSelectors": [
         "#login"
       ]
@@ -24,12 +39,12 @@
     },
     {
       "timestamp": "0001-01-01T00:00:00Z",
-      "type": "click",
-      "selector": "#loginUsernameLabel",
+      "type": "fill",
+      "selector": "#password",
       "selectorKind": "id",
+      "value": "admin",
       "altSelectors": [
-        "Username",
-        "#loginUsernameLabel"
+        "#password"
       ]
     },
     {
@@ -44,9 +59,8 @@
     },
     {
       "timestamp": "0001-01-01T00:00:00Z",
-      "type": "assertVisible",
-      "selector": "#loginSubmitBtn",
-      "selectorKind": "id"
+      "type": "assertURL",
+      "value": "/ui/"
     }
   ],
   "formatVersion": 1
